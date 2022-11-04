@@ -1,0 +1,65 @@
+ /* REMOVE ARROWS FOR NUMBER TYPE INPUT */
+ /* Chrome, Safari, Edge, Opera */
+ 
+ input::-webkit-outer-spin-button,
+ input::-webkit-inner-spin-button {
+     -webkit-appearance: none;
+     margin: 0;
+ }
+ /* Firefox */
+ 
+ input[type=number] {
+     -moz-appearance: textfield;
+ }
+ /* REMOVE ARROWS FOR NUMBER TYPE INPUT END */
+ 
+ .logo {
+     height: 2.2rem;
+ }
+ 
+ .logo-footer {
+     height: 5rem;
+ }
+ 
+ body {
+     /* background-image: url(../images/Calapan_City_Public_Market.jpg); */
+     background-color: azure;
+     min-height: 100vh;
+ }
+ 
+ .my-form {
+     background-color: white;
+ }
+ 
+ a {
+     color: inherit;
+ }
+ 
+ a:hover {
+     color: black;
+ }
+ 
+ .web-title {
+     font-family: 'Poppins', sans-serif;
+     font-weight: bolder;
+     color: chocolate;
+ }
+ 
+ .web-subtitle {
+     font-family: 'Poppins', sans-serif;
+     font-weight: normal;
+     color: chocolate;
+ }
+ 
+ .btn-text {
+     font-family: 'Varela Round', sans-serif;
+     background-color: rgba(210, 105, 30, 0.916);
+     color: white;
+ }
+ * {
+     font-family: 'Manrope', sans-serif;
+ }
+
+.input-text{
+    background-color: rgba(0, 0, 0, 0.078);
+}
